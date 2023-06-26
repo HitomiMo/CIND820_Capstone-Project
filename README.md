@@ -8,7 +8,7 @@ Uploaded files
 
 Updated June 26
 
-# Project:
+# Project
 “Investigate passenger satisfaction using Machine Learning Techniques” will investigate 
 1) how association rules (unsupervised machine learning model) identify relationships between variables to identify passenger segmentation to improve passenger satisfaction
 2) how supervised machine learning models predict the top three most influential variables for passenger satisfaction
