@@ -24,7 +24,7 @@ This repository contains the following technical documents.
    - Capped outliers
    - Encoding all categorical variables (columns with type: object) to numerical variables
    - Feature Selection to reduce dimensions
-   - Applying undersampling, oversampling and SMOTE to address the imbalance in the target class, "Satisfaction"
+   - Applied undersampling, oversampling and SMOTE to address the imbalance in the target class, "Satisfaction"
 2. Build models
    - Random Forest: undersampling, oversampling and SMOTE 
    - k-Nearest Neighbours: undersampling, oversampling and SMOTE 
@@ -34,13 +34,13 @@ This repository contains the following technical documents.
 The initial results provide answers to the following research question. 
 
 2) how supervised machine learning models predict the top three most influential variables for passenger satisfaction
-   - They are Online Boarding, In-flight Wifi Service and Class.
+   - The top three most influential variables are Online Boarding, In-flight Wifi Service and Class. 
 
 However, the test set is not a golden standard test set. Therefore, the results may be changed after re-running the process. 
 
 # Next
 1. Split the dataset into training and golden standard test sets and re-run the process
 2. Apply cross-validation
-3. Complete classification reprot
+3. Complete classification report
 4. Unsupervised Machine Learning (association rules)
 
