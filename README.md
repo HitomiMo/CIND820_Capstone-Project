@@ -3,7 +3,7 @@
 Uploaded files
 1. The dataset
 2. The data dictionary
-3. ipynb file (Updated )
+3. ipynb file (Updated June 26)
 
 Updated June 26
 
@@ -13,7 +13,7 @@ Updated June 26
 2) how supervised machine learning models predict the top three most influential variables for passenger satisfaction
 3) evaluate the best-performed machine learning model to classify influential predictors
 
-# Initial Results (as of June 26)
+# Initial Results (June 26)
 
 This repository contains the following technical documents. 
 
@@ -39,7 +39,8 @@ The initial results provide answers to the following research question.
 However, the test set is not a golden standard test set. Therefore, the results may be changed after re-running the process. 
 
 # Next
-1. Split the dataset into training and golden standard test set and re-run the process
+1. Split the dataset into training and golden standard test sets and re-run the process
 2. Apply cross-validation
-3. Unsupervised Machine Learning (association rules)
+3. Complete classification reprot
+4. Unsupervised Machine Learning (association rules)
 
