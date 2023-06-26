@@ -34,11 +34,12 @@ This repository contains the following technical documents.
 The initial results provide answers to the following research question. 
 
 2) how supervised machine learning models predict the top three most influential variables for passenger satisfaction
-   - They are Online Boarding, Class and Type of Travel.
+   - They are Online Boarding, In-flight Wifi Service and Class.
 
 However, the test set is not a golden standard test set. Therefore, the results may be changed after re-running the process. 
 
-# Challenge: 
-1. How to split the dataset into training and golden standard test set
-2. 
+# Next
+1. Split the dataset into training and golden standard test set and re-run the process
+2. Apply cross-validation
+3. Unsupervised Machine Learning (association rules)
 
