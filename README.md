@@ -4,6 +4,7 @@ Uploaded files
 1. The dataset
 2. The data dictionary
 3. ipynb file (Updated June 26)
+4. Technical report includes EDA and Initial Results (Uploaded June 26)
 
 Updated June 26
 
