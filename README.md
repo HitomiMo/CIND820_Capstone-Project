@@ -36,7 +36,7 @@ This repository contains the following technical documents.
    - XGBoost: undersampling, oversampling and SMOTE
    2. Hyperparameter tuning by using GridSearchCV
    - Compared performance of three models
-   3. Feature Importance of the best-performed model
+3. Feature Importance of the best-performed model
      
 # Unsupervised Machine Learning (Association rule) 
 1. Data preparation for Association rule
