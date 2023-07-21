@@ -37,16 +37,16 @@ This repository contains the following technical documents.
    2. Hyperparameter tuning by using GridSearchCV
    - Compared performance of three models
    3. Feature Importance of the best-performed model
-   - Categorized continuous variables
-   - Converted categorical variables into dummy or indicator variables
-   4. Apply model
-   - Apriori algorithm
-   5. Evaluate the output
-   - Checked confidence and support
      
 # Unsupervised Machine Learning (Association rule) 
 1. Data preparation for Association rule
    - Removed missing values
+   - Categorized continuous variables
+   - Converted categorical variables into dummy or indicator variables
+2. Apply model
+   - Apriori algorithm
+3. Evaluate the output
+   - Checked confidence and support
   
 The final results provide answers to the following research questions. 
 
