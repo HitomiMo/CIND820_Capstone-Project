@@ -30,20 +30,20 @@ This repository contains the following technical documents.
    - Split the dataset
    - Applied undersampling, oversampling and SMOTE to address the imbalance in the target class, "Satisfaction"
 2. Build models
-   2.1 Check the score
+   1 Check the score
    - Random Forest: undersampling, oversampling and SMOTE 
    - k-Nearest Neighbours: undersampling, oversampling and SMOTE 
    - XGBoost: undersampling, oversampling and SMOTE
-   2.2
+   2
    - Hyperparameter tuning by using GridSearchCV
    - Compared performance of three models
-   2.3
+   3
    - Feature Importance on the best-performed model
    - Categorized continuous variables
    - Converted categorical variables into dummy or indicator variables
-   3. Apply model
+   4. Apply model
    - Apriori algorithm
-   4. Evaluate the output
+   5. Evaluate the output
    - Checked confidence and support
      
 # Unsupervised Machine Learning (Association rule) 
