@@ -5,8 +5,10 @@ Uploaded files
 2. The data dictionary
 3. ipynb file (Updated June 26)
 4. Technical report includes EDA and Initial Results (Uploaded June 26)
+5. Technical reports (EDA, Supervised ML with overfitted and updated version, Unsupervised ML) (Uploaded July 19 and 20)
+6. PDF report (Supervised ML (updated version) and Unsupervised ML) (Uploaded July20)
 
-Updated June 26
+Last Update: July 20
 
 # Project
 “Investigate passenger satisfaction using Machine Learning Techniques” will investigate 
