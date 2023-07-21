@@ -12,38 +12,55 @@ Last Update: July 20
 
 # Project
 “Investigate passenger satisfaction using Machine Learning Techniques” will investigate 
-1) how association rules (unsupervised machine learning model) identify relationships between variables to identify passenger segmentation to improve passenger satisfaction
-2) how supervised machine learning models predict the top three most influential variables for passenger satisfaction
-3) evaluate the best-performed machine learning model to classify influential predictors
+1) how supervised machine learning models predict the top three most influential variables for passenger satisfaction (feature selection)
+2) evaluate the best-performed machine learning model to classify influential predictors
+3) how association rules (unsupervised machine learning model) identify relationships between variables to identify passenger segmentation
 
-# Initial Results (June 26)
+# Final Results (July 20)
 
 This repository contains the following technical documents. 
 
+# Supervised Machine Learning
 1. Data preparation for Supervised Machine Learning
-   - Split the dataset
-   -- The test set includes some missing values. I am looking for a way to include only complete cases in the test set (how to split a dataset into training and golden standard test set)
-   - Imputed median value into missing values
-   - Capped outliers
-   - Encoding all categorical variables (columns with type: object) to numerical variables
+   - Converted categorical variables 
+   - Removed missing values
+   - Created one-hot-key for categorical variables
+   - Handled outliers
    - Feature Selection to reduce dimensions
+   - Split the dataset
    - Applied undersampling, oversampling and SMOTE to address the imbalance in the target class, "Satisfaction"
 2. Build models
+   2.1 Check the score
    - Random Forest: undersampling, oversampling and SMOTE 
    - k-Nearest Neighbours: undersampling, oversampling and SMOTE 
-   - XGBoost: undersampling, oversampling and SMOTE 
-   - Feature Importance
+   - XGBoost: undersampling, oversampling and SMOTE
+   2.2
+   - Hyperparameter tuning by using GridSearchCV
+   - Compared performance of three models
+   2.3
+   - Feature Importance on the best-performed model
+   - Categorized continuous variables
+   - Converted categorical variables into dummy or indicator variables
+   3. Apply model
+   - Apriori algorithm
+   4. Evaluate the output
+   - Checked confidence and support
+     
+# Unsupervised Machine Learning (Association rule) 
+1. Data preparation for Association rule
+   - Removed missing values
   
-The initial results provide answers to the following research question. 
+The final results provide answers to the following research questions. 
 
-2) how supervised machine learning models predict the top three most influential variables for passenger satisfaction
-   - The top three most influential variables are Online Boarding, In-flight Wifi Service and Class. 
+1) how supervised machine learning models predict the top three most influential variables for passenger satisfaction (feature selection)
+   -> The top three important factors are 1) Class (Business), 2) Online Boarding and 3) Type of Travel (Business)
+   
+2) evaluate the best-performed machine learning model to classify influential predictors
+   -> Random Forest (Accuracy on training:0.93, Accuracy on test:0.93, F1:0.92) but there was no significant difference among given models. 
+   
+3) how association rules (unsupervised machine learning model) identify relationships between variables to identify passenger segmentation
+   -> Passengers who are Type of Travel (Business) and Customer Type (Returning) are likely to evaluate their overall experience as Satisfied.
+   -> Passengers who are Class (Economy), did not get or had a hard time in online boarding, and did not get good In-flight Wi-fi services are likely to evaluate their overall experience as Neutral or Dissatisfied.
 
-However, the test set is not a golden standard test set. Therefore, the results may be changed after re-running the process. 
 
-# Next
-1. Split the dataset into training and golden standard test sets and re-run the process
-2. Apply cross-validation
-3. Complete classification report
-4. Unsupervised Machine Learning (association rules)
 
